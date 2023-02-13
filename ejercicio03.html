@@ -1,22 +1,22 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>JavaScript and the DOM</title>
-    <link rel="stylesheet" href="css/style.css">   
+    <title>DOM en JavaScript.Borrar elemento</title>
+    <link rel="stylesheet" href="../css/style.css">    	
   </head>
-  <body>
-    <h1 id="encabezado">DOM en JavaScript. Añadir elemento </h1>
-    <div class="lista">
+ <body>
+    <h1 id="encabezado">DOM en JavaScript. Añadir y borrar elemento </h1>
+    <div>
       <p class="description">Cosas que son violeta:</p>
-      <ul>
+      <ul id="list">
         <li>ciruelas</li>
         <li>amatista</li>
         <li>lavanda</li>
         <li>berenjena</li>
       </ul>
-      <input type="text" class="AñadirElemento">
-      <button class="BotonAñadir">Añadir</button>   
+      <input type="text" id="AñadirElemento">
+      <button onclick="añadir()">Añadir</button>
+      <script type="text/javascript" src="../js/scriptEj3-6.1.js"></script>
     </div>
-    <script type="text/javascript" src="js/ejercicio03.js"></script>
   </body>
 </html>
